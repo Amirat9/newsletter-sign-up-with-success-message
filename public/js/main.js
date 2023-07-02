@@ -16,8 +16,14 @@ form.addEventListener('submit', (e) => {
       'focus:border-darkNavy',
       'focus:outline-darkNavy'
     );
-    input.classList =
-      'bg-vermellion bg-opacity-20 border border-1 border-vermellion py-4 px-6 rounded-lg cursor-pointer focus:border-vermellion focus:outline-vermellion  text-vermellion';
+    input.classList.add(
+      'bg-vermellion',
+      'bg-opacity-20',
+      'text-vermellion',
+      'border-vermellion',
+      'focus:border-vermellion',
+      'focus:outline-vermellion'
+    );
     input.setAttribute('aria-invalid', 'true');
     input.focus();
   } else {
