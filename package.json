@@ -1,0 +1,16 @@
+{
+  "name": "newsletter-sign-up-with-success-message",
+  "version": "1.0.0",
+  "description": "This is a newsletter sign up form with success message, which is challenge by frontendmentor.io .",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Amir Taherian",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
